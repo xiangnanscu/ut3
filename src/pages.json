@@ -1,16 +1,1 @@
-{
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	}
-}
+{"easycom":{"autoscan":true,"custom":{"^uni-(.*)":"@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"}},"pages":[{"path":"pages/Home","style":{"navigationBarTitleText":""}},{"path":"pages/Message","style":{"navigationBarTitleText":""}}],"tabBar":{"borderStyle":"black","backgroundColor":"#fff","color":"#8F8F94","selectedColor":"#f33e54","list":[{"pagePath":"pages/Home","iconPath":"static/img/tabbar/home.png","selectedIconPath":"static/img/tabbar/homeactive.png","text":"首页"},{"pagePath":"pages/Message","iconPath":"static/img/tabbar/news.png","selectedIconPath":"static/img/tabbar/newsactive.png","text":"消息"}]},"globalStyle":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}}

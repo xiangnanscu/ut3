@@ -1,0 +1,40 @@
+{
+  "html.format.wrapAttributesIndentSize": 2,
+  "html.format.wrapAttributes": "force-expand-multiline", //volar格式化template的选项
+  "html.format.wrapLineLength": 80,
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.probe": [
+    "html",
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript"
+  ],
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 120,
+  "editor.formatOnPaste": false, // required
+  "editor.formatOnType": false, // required
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "files.autoSave": "onFocusChange", // optional but recommended
+  "vs-code-prettier-eslint.prettierLast": false,
+  "[vue]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    // "editor.defaultFormatter": "Vue.volar"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  }, // optional but recommended
+  "json.schemaDownload.enable": true
+}
